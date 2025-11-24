@@ -1,5 +1,5 @@
 # SimplyNotepad
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 **SimplyNotepad** is a lightweight, simplified text editor for Windows, created by **Vsy**.
 It’s inspired by classic Notepad but for Low-End PCs that hardly can run Notepad.
 
@@ -24,6 +24,11 @@ It’s inspired by classic Notepad but for Low-End PCs that hardly can run Notep
 2. Run the installer and follow the instructions
 3. SimplyNotepad will be available from your Start Menu and desktop (optional)
 
+## Direct Download
+Direct Alpha 0.1 Download: https://github.com/arandomguycooler-sys/Simply-Notepad/releases/download/Alpha/SimplyNotepadInstaller.exe
+
+## Official Release
+[![Release](https://img.shields.io/github/v/release/arandomguycooler-sys/Simply-Notepad?include_prereleases)](https://github.com/arandomguycooler-sys/Simply-Notepad/releases)
 
 ## Python Source
 1. Get Git from here if you havent yet: https://git-scm.com/install/
@@ -58,6 +63,11 @@ Automated:
 ### Porting it over to a USB so you can install it
 1. Get the installer(if your pc cant run the installer, Build it from source.)
 2. Run the installer/Run the .exe that comes when you build it.
+
+### Verifying the Installer
+The SHA256 of the SimplyNotepad.py is B23B7F4C8D983C53F64643B97DEFEC50929865E893AF06A05ACE530AD7AE6D04.
+If your output matches but only the capitalization isnt right, that doesnt matter. the thing is the output ITSELF.
+The installers one is E430498C5D1AA3DE9DFCCCF048994413FCC5AA5F0F9EDEEA6BA3545F13C03E65
 
 ### Contributing
 Contributions are welcome!
