@@ -26,10 +26,11 @@ Inspired by classic Notepad, it’s designed for low-end PCs that may struggle w
 3. Notepadly will be available from your Start Menu and optionally on your desktop.  
 
 ### Direct Download
-*IN DEVELOPMENT*  
+[Setup](https://github.com/HashedVsy/Notepadly/releases/download/v1.0/NotepadlySetup.exe)
+[Portable](https://github.com/HashedVsy/Notepadly/releases/download/v1.0/NotepadlyPortableEdition.exe)
 
-### Official Release
-*IN DEVELOPMENT*  
+### Official Release(s)
+[Here](https://github.com/HashedVsy/Notepadly/releases/tag/v1.0)
 
 ### Python Source
 
@@ -62,12 +63,14 @@ pyinstaller --noconfirm --onefile --windowed --icon "SimplyNotepad.ico" --name "
 3. Done! If there are errors, try the Manual method.
 
 ### Porting to USB
-
-NOT AVAILABLE
+Put the Portable Edition on the USB
+Plug it into another PC
+Finished
 
 ### Verifying the Installer
 
-NOT AVAILABLE
+Portable edition SHA256: e9d1e5e03b72b46db1db5ce4b02803ecfd7c2f0d8832b7b973a73f994142370b
+Setup edition SHA256: 56d803216e2d3e6a0ae1fc70e0a6a2c4920cc05c2dda8fd67b54ab7cbb20ff10
 
 ### Contributing
 Contributions are welcome!
