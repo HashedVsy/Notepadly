@@ -1,7 +1,8 @@
-# SimplyNotepad
+# Notepadly
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-**SimplyNotepad** is a lightweight, simplified text editor for Windows, created by **Vsy**.
-It’s inspired by classic Notepad but for Low-End PCs that hardly can run Notepad.
+
+**Notepadly** is a lightweight, simplified text editor for Windows, created by **HashedVsy**.  
+Inspired by classic Notepad, it’s designed for low-end PCs that may struggle with heavier editors.
 
 ---
 
@@ -20,64 +21,80 @@ It’s inspired by classic Notepad but for Low-End PCs that hardly can run Notep
 
 ### Windows (Executable)
 
-1. Download the latest installer from the Releases page
-2. Run the installer and follow the instructions
-3. SimplyNotepad will be available from your Start Menu and desktop (optional)
+1. Download the latest installer from the Releases page.  
+2. Run the installer and follow the instructions.  
+3. Notepadly will be available from your Start Menu and optionally on your desktop.  
 
-## Direct Download
-Direct Alpha 0.1 Download: https://github.com/arandomguycooler-sys/Simply-Notepad/releases/download/Alpha/SimplyNotepadInstaller.exe
+### Direct Download
+*IN DEVELOPMENT*  
 
-## Official Release
-[![Release](https://img.shields.io/github/v/release/arandomguycooler-sys/Simply-Notepad?include_prereleases)](https://github.com/arandomguycooler-sys/Simply-Notepad/releases)
+### Official Release
+*IN DEVELOPMENT*  
 
-## Python Source
-1. Get Git from here if you havent yet: https://git-scm.com/install/
-2. Install Python 3.x from python.org(if you havent yet)
-3. Get the source using the command below
+### Python Source
+
+1. Install Git if you haven’t yet: [https://git-scm.com/install/](https://git-scm.com/install/)  
+2. Install Python 3.x from [python.org](https://www.python.org/)  
+3. Clone the repository:
 ```bash
-git clone https://github.com/arandomguycooler-sys/Simply-Notepad
+git clone https://github.com/HashedVsy/Notepadly
 ```
-4. Run the .py script using the command below
+4. Run the script:
 ```bash
-python SimplyNotepad.py
+python Notepadly.py
 ```
 
-### Building
-You can build Simply Notepad in TWO ways:
+## Building
+You can build Notepadly (and SimplyNotepad) in two ways:
+### Manual Build
+1. Follow the Python Source steps above until step 4.
+2. Install PyInstaller (or use auto-py-to-exe):
+```bash
+pip install pyinstaller
+```
+3. Build with your preferred command. Example:
+```bash
+pyinstaller --noconfirm --onefile --windowed --icon "SimplyNotepad.ico" --name "SimplyNotepad" --add-data "SimplyNotepad.ico;." "SimplyNotepad.py"
+```
+### Automated Build
+1. Clone the repository as per the Python Source steps.
+2. Run build.py in any way.
+3. Done! If there are errors, try the Manual method.
 
-Manual: 
-  1. First get the source using the Tutorial above until step 4.
-  2. If you havent, get Pyinstaller using the command below(you can use auto-py-to-exe!)
-  ```bash
-  pip install pyinstaller
-  ```
-  3. Use any command you would like, but i use this:
-  ```bash
-  pyinstaller --noconfirm --onefile --windowed --icon "SimplyNotepad.ico" --name "SimplyNotepad" --add-data "SimplyNotepad.ico;." "SimplyNotepad.py"
-  ```
-Automated:
-  1. Get the source using the "Python Source" tutorial
-  2. Run the build.py file in ANY way.
-  3. Your done, if something errors, use Manual instead.
+### Porting to USB
 
-### Porting it over to a USB so you can install it
-1. Get the installer(if your pc cant run the installer, Build it from source.)
-2. Run the installer/Run the .exe that comes when you build it.
+NOT AVAILABLE
 
 ### Verifying the Installer
-The SHA256 of the SimplyNotepad.py is B23B7F4C8D983C53F64643B97DEFEC50929865E893AF06A05ACE530AD7AE6D04.
-If your output matches but only the capitalization isnt right, that doesnt matter. the thing is the output ITSELF.
-The installers one is E430498C5D1AA3DE9DFCCCF048994413FCC5AA5F0F9EDEEA6BA3545F13C03E65
+
+NOT AVAILABLE
 
 ### Contributing
 Contributions are welcome!
+
 How to contribute:
-1. Fork this Repository
-2. Modify YOUR fork in ANY way.
+
+1. Fork this repository.
+2. Make your changes in your fork.
 3. Submit a pull request.
-4. Wait until i review it
-5. if i accept, your fork will be merged!
-6. if i deny, your fork will not be merged and you will get why. Common reasons include but dont extend to: Trolling(e.g. Deleting the GUI.) and Merge Problems.
+4. Wait for review.
+5. If accepted, your changes will be merged.
+6. If denied, feedback will be provided.
+
+Common reasons for denial include, but are not limited to:
+
+Trolling (e.g., deleting the GUI)
+
+Merge conflicts or errors
 
 ### Contact
-You can contact me on Discord(my Discord is randomsyofficial) but if you wanna get info about your Pull Request getting closed, see above.
+
+You can reach me on Discord: randomsyofficial.
+For questions about pull requests, see the contributing section above.
+
+## License & Credits
+
+Notepadly is released under the MIT License.  
+The original project, **SimplyNotepad**, is also MIT-licensed.  
+SimplyNotepad was created by **arandomguycooler-sys** and is not affiliated with the Notepadly creators or contributors.  
+See [LICENSE](LICENSE) for full details.
