@@ -77,7 +77,7 @@ root.withdraw()
 root.deiconify()
 root.title(title)
 root.geometry("700x500")
-icon_path = os.path.join(base_path, "NotepadPlus.ico")
+icon_path = os.path.join(base_path, "Notepadly.ico")
 if os.path.exists(icon_path):
     root.iconbitmap(icon_path)
 
@@ -132,3 +132,4 @@ root.bind("<Control-X>", cut_text)
 
 update_line_numbers()
 root.mainloop()
+
